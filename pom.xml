@@ -171,4 +171,13 @@ public class ProductController {
 
 }
 	
+application.properties
+	
+spring.datasource.url=jdbc:mysql://localhost:3306/advjava5
+spring.datasource.username=root
+spring.datasource.password=root123
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.open-in-view=false
+	
 	localhost://8080/swagger-ui.html
