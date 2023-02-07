@@ -123,6 +123,7 @@ public interface ProductService {
 	List<Product> getAllProducts();
 	Product AddProducts(Product newProduct);
 
+ProductServiceImpl
 @Service
 @Transactional
 public class ProductServiceImpl implements ProductService {
@@ -169,3 +170,5 @@ public class ProductController {
 	}
 
 }
+	
+	localhost://8080/swagger-ui.html
